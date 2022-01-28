@@ -1,1 +1,1 @@
-# InventoryConcept
+# InheritanceConcept
