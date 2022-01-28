@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.inheritance.hierarchical.AnimalTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-28T12:59:56" hostname="DESKTOP-H3C67DB" time="0.029">
+  <properties/>
+  <testcase name="TestOfEatingFalse()" classname="com.soj.inheritance.hierarchical.AnimalTest" time="0.027"/>
+  <testcase name="TestOfEating()" classname="com.soj.inheritance.hierarchical.AnimalTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
