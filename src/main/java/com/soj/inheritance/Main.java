@@ -1,45 +1,52 @@
 package com.soj.inheritance;
 
-import com.soj.inheritance.hierarchical.Cat;
-import com.soj.inheritance.hierarchical.Tiger;
+import com.soj.inheritance.hierarchical.Employee;
+import com.soj.inheritance.hierarchical.PermanentEmployee;
+import com.soj.inheritance.hierarchical.TemporaryEmployee;
 import com.soj.inheritance.multilevel.BabyDog;
-import com.soj.inheritance.single.Animal;
-import com.soj.inheritance.single.Dog;
+import com.soj.inheritance.single.Parrot;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class Main {
-    public static void main(String[] args){
-        System.out.println("multiple inheritance.....");
-        Dog dog = new Dog();
-        System.out.println( dog.eat());
-        System.out.println(dog.bark());
+    static final Logger logger = LogManager.getLogger(Main.class.getName());
 
-        System.out.println("......................................");
+    public static void main(String[] args) {
+        logger.info("single inheritance.....");
+        Parrot parrot = new Parrot();
+        String parrotEat=parrot.eat();
+        logger.debug(parrotEat);
+        parrot.sound();
 
-        System.out.println("multilevel inheritance.............");
+
+
+        logger.info("......................................");
+
+        logger.info("multilevel inheritance.............");
         BabyDog babyDog = new BabyDog();
+        String babyDogEat = babyDog.eat();
+        logger.debug(babyDogEat);
+        String babyDogBark = babyDog.bark();
+        logger.debug(babyDogBark);
+        String babyDogWeep = babyDog.weep();
+        logger.debug(babyDogWeep);
+        logger.info("......................................");
 
-        System.out.println(babyDog.eat());
-        System.out.println( babyDog.bark());
-        System.out.println( babyDog.weep());
-        System.out.println("......................................");
+        logger.info("hierarchical inheritance.............");
 
-        System.out.println("hierarchial inheritance.............");
 
-        Cat cat= new Cat();
-        String eat=cat.eat();
-        System.out.println(eat);
+        PermanentEmployee permanent=new PermanentEmployee(40000,10000);
+        permanent.displaySalary();
+        permanent.incrementSalary();
 
-        String sound=cat.meow();
-        System.out.println(sound);
 
-        Tiger tiger=new Tiger();
-        String eat1=tiger.eat();
-        System.out.println(eat1);
+        TemporaryEmployee temporary=new TemporaryEmployee(40000,5000);
+        temporary.displaySalary();
+        temporary.incrementSalary();
 
-        String sound1=tiger.roar();
-        System.out.println(sound1);
-//first commit
+
+
     }
 }
 

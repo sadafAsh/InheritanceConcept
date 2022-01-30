@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.inheritance.hierarchical.EmployeeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-30T23:05:39" hostname="DESKTOP-H3C67DB" time="0.548">
+  <properties/>
+  <testcase name="testToDisplayTheSalary()" classname="com.soj.inheritance.hierarchical.EmployeeTest" time="0.544"/>
+  <testcase name="testToGetSalary()" classname="com.soj.inheritance.hierarchical.EmployeeTest" time="0.003"/>
+  <system-out><![CDATA[DEBUG [Test worker] 2022-01-30T23:05:39,978  (line )  The employee of the salary is : 40000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
