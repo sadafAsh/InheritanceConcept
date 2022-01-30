@@ -21,7 +21,7 @@ types of inheritance and also its tests cases .
 
  1.SINGLE INHERITANCE:
           When a class inherits the another class.It is called Single inheritance.In 'single 
-inheritance' package, 'Dog', the child class  inherits the 'Animal' the parent class. Dog class 
+inheritance' package, 'Parrot', the child class  inherits the 'Bird' the parent class. Dog class 
 has all the features ,fields or methods of the Animal class.
 
 2. MULTILEVEL INHERITANCE:
@@ -32,8 +32,8 @@ has all the properties from 'Dog'class as well as 'Animal' class so it is a mult
 
 3.HIERARCHICAL INHERITANCE:
         When two or more class inherits a single class,so it is called hierarchiacal inheritance.
-In 'hierarchical inheritance' package 'Cat' class and 'Tiger' class both inherits the 'Animal' 
-class.Both the class has the properties of 'Animal' class.
+In 'hierarchical inheritance' package 'PermanentEmployee' class and 'TemporaryEmployee' class 
+both inherits the 'Employee'class.Both the class has the properties of 'Animal' class.
 
 JunitTest:
       There is JUnit Test also present for all three type of inheritance and test coverage are 100%
