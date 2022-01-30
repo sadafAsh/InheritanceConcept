@@ -3,7 +3,9 @@ package com.soj.inheritance;
 import com.soj.inheritance.hierarchical.Cat;
 import com.soj.inheritance.hierarchical.Tiger;
 import com.soj.inheritance.multilevel.BabyDog;
+import com.soj.inheritance.single.Animal;
 import com.soj.inheritance.single.Dog;
+
 
 public class Main {
     public static void main(String[] args){
@@ -23,6 +25,7 @@ public class Main {
         System.out.println("......................................");
 
         System.out.println("hierarchial inheritance.............");
+
         Cat cat= new Cat();
         String eat=cat.eat();
         System.out.println(eat);

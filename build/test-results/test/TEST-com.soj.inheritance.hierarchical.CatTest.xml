@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.soj.inheritance.hierarchical.CatTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-28T12:59:56" hostname="DESKTOP-H3C67DB" time="0.003">
-  <properties/>
-  <testcase name="TestOfEatingFalse()" classname="com.soj.inheritance.hierarchical.CatTest" time="0.001"/>
-  <testcase name="TestOfEating()" classname="com.soj.inheritance.hierarchical.CatTest" time="0.001"/>
-  <testcase name="TestOfMeow()" classname="com.soj.inheritance.hierarchical.CatTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

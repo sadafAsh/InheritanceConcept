@@ -36,6 +36,15 @@ In 'hierarchical inheritance' package 'Cat' class and 'Tiger' class both inherit
 class.Both the class has the properties of 'Animal' class.
 
 JunitTest:
-      There is JUnit Test also present of all three type of inheritance and test cases are 100%
+      There is JUnit Test also present for all three type of inheritance and test coverage are 100%
 successful by jacoco reports.
      
+SONARQUBE 
+
+gradle command to publish code to sonarqube
+./gradlew sonarqube 
+  -Dsonar.projectKey=Inheritance 
+  -Dsonar.host.url=http://localhost:9000 
+  -Dsonar.login=987167a3301a689e964b849913d6221d3ff34dbb
+  
+  
