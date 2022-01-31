@@ -14,39 +14,38 @@ import org.apache.logging.log4j.Logger;
     public static void main(String[] args) {
 <span class="nc" id="L15">        logger.info(&quot;single inheritance.....&quot;);</span>
 <span class="nc" id="L16">        Parrot parrot = new Parrot();</span>
-<span class="nc" id="L17">        String parrotEat=parrot.eat();</span>
-<span class="nc" id="L18">        logger.debug(parrotEat);</span>
-<span class="nc" id="L19">        parrot.sound();</span>
+<span class="nc" id="L17">        parrot.eat();</span>
+<span class="nc" id="L18">        parrot.sound();</span>
 
 
 
-<span class="nc" id="L23">        logger.info(&quot;......................................&quot;);</span>
+<span class="nc" id="L22">        logger.info(&quot;......................................&quot;);</span>
 
-<span class="nc" id="L25">        logger.info(&quot;multilevel inheritance.............&quot;);</span>
-<span class="nc" id="L26">        BabyDog babyDog = new BabyDog(&quot;animal is eating&quot;,&quot;dog is barking&quot;,&quot;babyDog is weeping&quot;);</span>
-<span class="nc" id="L27">        String babyDogEat = babyDog.eat();</span>
-<span class="nc" id="L28">        logger.debug(babyDogEat);</span>
-<span class="nc" id="L29">        String babyDogBark = babyDog.bark();</span>
-<span class="nc" id="L30">        logger.debug(babyDogBark);</span>
-<span class="nc" id="L31">        String babyDogWeep = babyDog.weep();</span>
-<span class="nc" id="L32">        logger.debug(babyDogWeep);</span>
-<span class="nc" id="L33">        logger.info(&quot;......................................&quot;);</span>
+<span class="nc" id="L24">        logger.info(&quot;multilevel inheritance.............&quot;);</span>
+<span class="nc" id="L25">        BabyDog babyDog = new BabyDog(&quot;animal is eating&quot;,&quot;dog is barking&quot;,&quot;babyDog is weeping&quot;);</span>
+<span class="nc" id="L26">        String babyDogEat = babyDog.eat();</span>
+<span class="nc" id="L27">        logger.debug(babyDogEat);</span>
+<span class="nc" id="L28">        String babyDogBark = babyDog.bark();</span>
+<span class="nc" id="L29">        logger.debug(babyDogBark);</span>
+<span class="nc" id="L30">        String babyDogWeep = babyDog.weep();</span>
+<span class="nc" id="L31">        logger.debug(babyDogWeep);</span>
+<span class="nc" id="L32">        logger.info(&quot;......................................&quot;);</span>
 
-<span class="nc" id="L35">        logger.info(&quot;hierarchical inheritance.............&quot;);</span>
-
-
-<span class="nc" id="L38">        PermanentEmployee permanent=new PermanentEmployee(40000,10000);</span>
-<span class="nc" id="L39">        permanent.displaySalary();</span>
-<span class="nc" id="L40">        permanent.incrementSalary();</span>
+<span class="nc" id="L34">        logger.info(&quot;hierarchical inheritance.............&quot;);</span>
 
 
-<span class="nc" id="L43">        TemporaryEmployee temporary=new TemporaryEmployee(40000,5000);</span>
-<span class="nc" id="L44">        temporary.displaySalary();</span>
-<span class="nc" id="L45">        temporary.incrementSalary();</span>
+<span class="nc" id="L37">        PermanentEmployee permanent=new PermanentEmployee(40000,10000);</span>
+<span class="nc" id="L38">        permanent.displaySalary();</span>
+<span class="nc" id="L39">        permanent.incrementSalary();</span>
+
+
+<span class="nc" id="L42">        TemporaryEmployee temporary=new TemporaryEmployee(40000,5000);</span>
+<span class="nc" id="L43">        temporary.displaySalary();</span>
+<span class="nc" id="L44">        temporary.incrementSalary();</span>
 
 
 
-<span class="nc" id="L49">    }</span>
+<span class="nc" id="L48">    }</span>
 }
 
 

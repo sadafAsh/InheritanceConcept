@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.soj.inheritance.hierarchical.TemporaryEmployeeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-31T10:04:57" hostname="DESKTOP-H3C67DB" time="0.002">
+<testsuite name="com.soj.inheritance.hierarchical.TemporaryEmployeeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-31T10:18:58" hostname="DESKTOP-H3C67DB" time="0.003">
   <properties/>
-  <testcase name="testForTermanentEmployeeSalaryIsFailed()" classname="com.soj.inheritance.hierarchical.TemporaryEmployeeTest" time="0.001"/>
+  <testcase name="testForTermanentEmployeeSalaryIsFailed()" classname="com.soj.inheritance.hierarchical.TemporaryEmployeeTest" time="0.002"/>
   <testcase name="testForTemporaryEmployeeSalaryShouldIncreaseBy5000()" classname="com.soj.inheritance.hierarchical.TemporaryEmployeeTest" time="0.0"/>
-  <system-out><![CDATA[ INFO [Test worker] 2022-01-31T10:04:57,950  (line ) The increase  salary of temporary employee
- INFO [Test worker] 2022-01-31T10:04:57,950  (line ) Temporary employee salary is 40000 
- INFO [Test worker] 2022-01-31T10:04:57,951  (line ) The increase  salary of temporary employee
+  <system-out><![CDATA[ INFO [Test worker] 2022-01-31T10:18:58,620  (line ) The increase  salary of temporary employee
+ INFO [Test worker] 2022-01-31T10:18:58,620  (line ) Temporary employee salary is 40000 
+ INFO [Test worker] 2022-01-31T10:18:58,621  (line ) The increase  salary of temporary employee
+ INFO [Test worker] 2022-01-31T10:18:58,621  (line ) Temporary employee salary is 45000 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

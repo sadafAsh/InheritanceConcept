@@ -14,8 +14,7 @@ public class Main {
     public static void main(String[] args) {
         logger.info("single inheritance.....");
         Parrot parrot = new Parrot();
-        String parrotEat=parrot.eat();
-        logger.debug(parrotEat);
+        parrot.eat();
         parrot.sound();
 
 

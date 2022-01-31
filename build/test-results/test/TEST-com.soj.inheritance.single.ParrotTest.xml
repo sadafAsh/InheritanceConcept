@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.soj.inheritance.single.ParrotTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-31T10:04:57" hostname="DESKTOP-H3C67DB" time="0.002">
+<testsuite name="com.soj.inheritance.single.ParrotTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-31T10:18:58" hostname="DESKTOP-H3C67DB" time="0.002">
   <properties/>
-  <testcase name="testforSound()" classname="com.soj.inheritance.single.ParrotTest" time="0.001"/>
-  <testcase name="TestOfBarking()" classname="com.soj.inheritance.single.ParrotTest" time="0.001"/>
-  <system-out><![CDATA[TRACE [Test worker] 2022-01-31T10:04:57,970  (line ) Parrot is making the sound of chirping
+  <testcase name="TestOfEating()" classname="com.soj.inheritance.single.ParrotTest" time="0.001"/>
+  <testcase name="testforSound()" classname="com.soj.inheritance.single.ParrotTest" time="0.0"/>
+  <system-out><![CDATA[TRACE [Test worker] 2022-01-31T10:18:58,640  (line ) Bird is eating fruit seed
+TRACE [Test worker] 2022-01-31T10:18:58,642  (line ) Parrot is making the sound of chirping
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
