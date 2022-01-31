@@ -14,7 +14,7 @@ String expected="Bird is eating fruit seed";
 String actual=parrot.eat();
         Assertions.assertEquals(expected,actual);
     }
-
+@Test
     void testforSound(){
         Parrot parrot=new Parrot();
         parrot.sound();

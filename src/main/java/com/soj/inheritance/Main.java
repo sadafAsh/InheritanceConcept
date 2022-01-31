@@ -1,6 +1,5 @@
 package com.soj.inheritance;
 
-import com.soj.inheritance.hierarchical.Employee;
 import com.soj.inheritance.hierarchical.PermanentEmployee;
 import com.soj.inheritance.hierarchical.TemporaryEmployee;
 import com.soj.inheritance.multilevel.BabyDog;
@@ -24,7 +23,7 @@ public class Main {
         logger.info("......................................");
 
         logger.info("multilevel inheritance.............");
-        BabyDog babyDog = new BabyDog();
+        BabyDog babyDog = new BabyDog("animal is eating","dog is barking","babyDog is weeping");
         String babyDogEat = babyDog.eat();
         logger.debug(babyDogEat);
         String babyDogBark = babyDog.bark();

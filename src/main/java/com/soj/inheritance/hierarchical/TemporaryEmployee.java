@@ -1,7 +1,10 @@
 package com.soj.inheritance.hierarchical;
 
-public class TemporaryEmployee extends Employee {
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+public class TemporaryEmployee extends Employee {
+    static final Logger logger = LogManager.getLogger(TemporaryEmployee.class.getName());
     private int hikeSalary=5000;
 
     public TemporaryEmployee(int salary, int hikeSalary) {

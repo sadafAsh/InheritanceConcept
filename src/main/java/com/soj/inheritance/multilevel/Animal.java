@@ -2,7 +2,13 @@ package com.soj.inheritance.multilevel;
 
 
 public class Animal {
-    public String eat(){
-        return "animal is eating";
+
+    String eat;
+
+    public Animal(String eat) {
+        this.eat = eat;
     }
+public String eat(){
+        return eat;
+}
 }

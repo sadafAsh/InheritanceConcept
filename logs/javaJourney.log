@@ -1,9 +1,10 @@
-DEBUG [Test worker] 2022-01-30T23:05:39,978  (line )  The employee of the salary is : 40000
- INFO [Test worker] 2022-01-30T23:05:40,002  (line ) The increase salary of permanent employee
- INFO [Test worker] 2022-01-30T23:05:40,002  (line ) Permanent employee salary is 50000 
- INFO [Test worker] 2022-01-30T23:05:40,005  (line ) The increase salary of permanent employee
- INFO [Test worker] 2022-01-30T23:05:40,005  (line ) Permanent employee salary is 40000 
- INFO [Test worker] 2022-01-30T23:05:40,011  (line ) The increase  salary of temporary employee
- INFO [Test worker] 2022-01-30T23:05:40,011  (line ) Temporary employee salary is 40000 
- INFO [Test worker] 2022-01-30T23:05:40,012  (line ) The increase  salary of temporary employee
- INFO [Test worker] 2022-01-30T23:05:40,012  (line ) Temporary employee salary is 45000 
+DEBUG [Test worker] 2022-01-31T10:04:57,926  (line )  The employee of the salary is : 40000
+ INFO [Test worker] 2022-01-31T10:04:57,945  (line ) The increase salary of permanent employee
+ INFO [Test worker] 2022-01-31T10:04:57,945  (line ) Permanent employee salary is 50000 
+ INFO [Test worker] 2022-01-31T10:04:57,946  (line ) The increase salary of permanent employee
+ INFO [Test worker] 2022-01-31T10:04:57,946  (line ) Permanent employee salary is 40000 
+ INFO [Test worker] 2022-01-31T10:04:57,950  (line ) The increase  salary of temporary employee
+ INFO [Test worker] 2022-01-31T10:04:57,950  (line ) Temporary employee salary is 40000 
+ INFO [Test worker] 2022-01-31T10:04:57,951  (line ) The increase  salary of temporary employee
+ INFO [Test worker] 2022-01-31T10:04:57,951  (line ) Temporary employee salary is 45000 
+TRACE [Test worker] 2022-01-31T10:04:57,970  (line ) Parrot is making the sound of chirping

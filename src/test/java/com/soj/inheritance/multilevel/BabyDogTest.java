@@ -3,25 +3,25 @@ package com.soj.inheritance.multilevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class BabyDogTest extends DogTest {
+class BabyDogTest  {
     @Test
-    public void TestOfWeeping(){
-        BabyDog babyDog=new BabyDog();
-        String expected="Baby dog is weeping";
+    void TestOfWeeping(){
+        BabyDog babyDog=new BabyDog("eating","barking","weeping");
+        String expected="weeping";
         String actual=babyDog.weep();
         Assertions.assertEquals(expected,actual);
     }
     @Test
-    public void TestOfBarking(){
-        BabyDog babyDog=new BabyDog();
-        String expected ="Dog is barking";
+     void TestOfBarking(){
+        BabyDog babyDog=new BabyDog("eating","barking","weeping");
+        String expected ="barking";
         String actual=babyDog.bark();
         Assertions.assertEquals(expected,actual);
     }
     @Test
-    public void TestOfEating() {
-        BabyDog babyDog = new BabyDog();
-        String expected = "animal is eating";
+    void TestOfEating() {
+        BabyDog babyDog = new BabyDog("eating","barking","weeping");
+        String expected = "eating";
         String actual = babyDog.eat();
         Assertions.assertEquals(expected, actual);
     }
