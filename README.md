@@ -47,4 +47,7 @@ gradle command to publish code to sonarqube
   -Dsonar.host.url=http://localhost:9000 
   -Dsonar.login=987167a3301a689e964b849913d6221d3ff34dbb
   
-  
+  ./gradlew sonarqube 
+    -Dsonar.projectKey=Test 
+    -Dsonar.host.url=http://localhost:9000 
+    -Dsonar.login=e59e29f83551e6d9c837d827f6d0565764759d3c

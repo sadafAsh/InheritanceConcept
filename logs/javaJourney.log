@@ -1,12 +1,12 @@
-DEBUG [Test worker] 2022-01-31T10:18:58,591  (line )  The employee of the salary is : 40000
- INFO [Test worker] 2022-01-31T10:18:58,612  (line ) The increase salary of permanent employee
- INFO [Test worker] 2022-01-31T10:18:58,612  (line ) Permanent employee salary is 50000 
- INFO [Test worker] 2022-01-31T10:18:58,614  (line ) The increase salary of permanent employee
- INFO [Test worker] 2022-01-31T10:18:58,614  (line ) Permanent employee salary is 40000 
- INFO [Test worker] 2022-01-31T10:18:58,620  (line ) The increase  salary of temporary employee
- INFO [Test worker] 2022-01-31T10:18:58,620  (line ) Temporary employee salary is 40000 
- INFO [Test worker] 2022-01-31T10:18:58,621  (line ) The increase  salary of temporary employee
- INFO [Test worker] 2022-01-31T10:18:58,621  (line ) Temporary employee salary is 45000 
-TRACE [Test worker] 2022-01-31T10:18:58,638  (line ) Bird is eating fruit seed
-TRACE [Test worker] 2022-01-31T10:18:58,640  (line ) Bird is eating fruit seed
-TRACE [Test worker] 2022-01-31T10:18:58,642  (line ) Parrot is making the sound of chirping
+DEBUG [Test worker] 2022-01-31T18:57:00,183  (line )  The employee of the salary is : 40000
+ INFO [Test worker] 2022-01-31T18:57:00,209  (line ) The increase salary of permanent employee
+ INFO [Test worker] 2022-01-31T18:57:00,209  (line ) Permanent employee salary is 50000 
+ INFO [Test worker] 2022-01-31T18:57:00,211  (line ) The increase salary of permanent employee
+ INFO [Test worker] 2022-01-31T18:57:00,211  (line ) Permanent employee salary is 40000 
+ INFO [Test worker] 2022-01-31T18:57:00,217  (line ) The increase  salary of temporary employee
+ INFO [Test worker] 2022-01-31T18:57:00,217  (line ) Temporary employee salary is 40000 
+ INFO [Test worker] 2022-01-31T18:57:00,219  (line ) The increase  salary of temporary employee
+ INFO [Test worker] 2022-01-31T18:57:00,219  (line ) Temporary employee salary is 45000 
+TRACE [Test worker] 2022-01-31T18:57:00,239  (line ) Bird is eating fruit seed
+TRACE [Test worker] 2022-01-31T18:57:00,242  (line ) Bird is eating fruit seed
+TRACE [Test worker] 2022-01-31T18:57:00,243  (line ) Parrot is making the sound of chirping

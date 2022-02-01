@@ -4,6 +4,7 @@ public class BabyDog extends Dog {
 
     String weep;
 
+
     public BabyDog(String eat, String bark, String weep) {
         super(eat, bark);
         this.weep = weep;

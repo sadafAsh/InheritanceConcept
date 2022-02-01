@@ -25,6 +25,23 @@ tasks.withType(Test) {
         events("passed", "skipped", "failed")
     }
 
+    sonarqube {
+        properties {
+            property 'sonar.host.url', 'http://localhost:9000'
+            property 'sonar.login','e59e29f83551e6d9c837d827f6d0565764759d3c'
+            property 'sonar.projectKey','Test'
+            property 'sonar.coverage.exclusions' ,'**/test/**, Main.java'
+        }
+    }
+    jacocoTestReport {
+        reports {
+            xml.enabled true
+        }
+    }
+    test.finalizedBy jacocoTestReport
+    tasks.named('sonarqube').configure {
+        dependsOn test
+    }
 
     dependencies {
         testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -33,7 +50,7 @@ tasks.withType(Test) {
 // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j
 compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.4.1'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.4.1'
-    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.4.1'
+       compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.4.1'
         compile group: 'com.lmax', name: 'disruptor', version: '3.+'
 
     }

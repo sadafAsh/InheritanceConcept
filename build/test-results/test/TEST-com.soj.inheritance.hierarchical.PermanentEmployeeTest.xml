@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.soj.inheritance.hierarchical.PermanentEmployeeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-31T10:18:58" hostname="DESKTOP-H3C67DB" time="0.006">
+<testsuite name="com.soj.inheritance.hierarchical.PermanentEmployeeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-31T18:57:00" hostname="DESKTOP-H3C67DB" time="0.007">
   <properties/>
   <testcase name="testForPermanentEmployeeSalaryShouldIncreaseBy10000()" classname="com.soj.inheritance.hierarchical.PermanentEmployeeTest" time="0.003"/>
-  <testcase name="testForPermanentEmployeeSalaryIsFailed()" classname="com.soj.inheritance.hierarchical.PermanentEmployeeTest" time="0.002"/>
-  <system-out><![CDATA[ INFO [Test worker] 2022-01-31T10:18:58,612  (line ) The increase salary of permanent employee
- INFO [Test worker] 2022-01-31T10:18:58,612  (line ) Permanent employee salary is 50000 
- INFO [Test worker] 2022-01-31T10:18:58,614  (line ) The increase salary of permanent employee
- INFO [Test worker] 2022-01-31T10:18:58,614  (line ) Permanent employee salary is 40000 
+  <testcase name="testForPermanentEmployeeSalaryIsFailed()" classname="com.soj.inheritance.hierarchical.PermanentEmployeeTest" time="0.003"/>
+  <system-out><![CDATA[ INFO [Test worker] 2022-01-31T18:57:00,209  (line ) The increase salary of permanent employee
+ INFO [Test worker] 2022-01-31T18:57:00,209  (line ) Permanent employee salary is 50000 
+ INFO [Test worker] 2022-01-31T18:57:00,211  (line ) The increase salary of permanent employee
+ INFO [Test worker] 2022-01-31T18:57:00,211  (line ) Permanent employee salary is 40000 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
