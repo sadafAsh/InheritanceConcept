@@ -15,7 +15,7 @@ is also called parent class,base class or super class.
 
 
 Types of Inheritance:
-         There are three types of inheritance in java single inheritance,multilevel inheritance and 
+         There are three types of inheritance in java, single inheritance,multilevel inheritance and 
 hierarchical inheritance.In this project I have made three different packages for three different 
 types of inheritance and also its tests cases .
 

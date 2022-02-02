@@ -14,7 +14,7 @@ class AnimalTest {
         Assertions.assertTrue(true,animal.eat());
     }
     @Test
-     void TestOfEatingFalse(){
+ void TestOfEatingFalse(){
         Animal animal=new Animal("animal is eating");
         String expected="dog is eating";
         String actual=animal.eat();

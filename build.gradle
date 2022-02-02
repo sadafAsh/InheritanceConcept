@@ -24,13 +24,28 @@ tasks.withType(Test) {
     testLogging {
         events("passed", "skipped", "failed")
     }
+    test.finalizedBy jacocoTestReport
+    tasks.named('sonarqube').configure {
+        dependsOn test
 
+    }
+    jacocoTestReport {
+        dependsOn test // tests are required to run before generating the report
+
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: [
+                    "com/soj/**/Main.*"
+            ])
+        }))
+    }
+}
     sonarqube {
         properties {
             property 'sonar.host.url', 'http://localhost:9000'
             property 'sonar.login','e59e29f83551e6d9c837d827f6d0565764759d3c'
             property 'sonar.projectKey','Test'
-            property 'sonar.coverage.exclusions' ,'**/test/**, Main.java'
+            property 'sonar.coverage.exclusions' ,'**/Main.*'
         }
     }
     jacocoTestReport {
