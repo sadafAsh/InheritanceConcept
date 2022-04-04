@@ -36,8 +36,14 @@ In 'hierarchical inheritance' package 'PermanentEmployee' class and 'TemporaryEm
 both inherits the 'Employee'class.Both the class has the properties of 'Animal' class.
 
 JunitTest:
-      There is JUnit Test also present for all three type of inheritance and test coverage are 100%
-successful by jacoco reports.
+      The JUnit Test is done for all three type of inheritance and test coverage are 100%
+successful in jacoco reports.
+
+       
+  SONARQUBE :
+          In sonarqube,reliability ,security , securityReview and maintainability is A and 
+the code coverage is 100%. 
+
      
 SONARQUBE 
 
